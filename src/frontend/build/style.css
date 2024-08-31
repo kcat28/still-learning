@@ -1,0 +1,162 @@
+body {
+    font-family: 'Jaldi', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #a1d99b;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #74c476;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+
+#logoapp {
+    display: block;
+    margin: 20px auto;
+    width: 40%;
+    height: auto;
+}
+
+.app-features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.feature {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1em;
+    margin-bottom: 1em;
+    width: calc(50% - 1em);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.buttonlink {
+    margin-top: auto;
+    text-align: center;
+}
+
+.buttonlink button {
+    background-color: #5946ab;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.buttonlink button:hover {
+    background-color: #45a049;
+}
+
+.cta-button {
+    display: block;
+    width: 200px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #31a354;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.ui-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.ui-gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ui-gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.meetTheTeam {
+    width: 100%;
+    padding: 20px;
+}
+
+.meetTheTeam h1 {
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.meetTheTeam article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-member {
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+}
+
+.meetTheTeam img {
+    height: 165px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.meetTheTeam h1 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0 0;
+}
+
+footer {
+    padding: 20px;
+    background-color: #74c476;
+    text-align: center;
+}
